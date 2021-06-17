@@ -64,8 +64,13 @@ button:focus {
       padding: 70px 0; } 
     }
 
+.header_area{
+  min-width:340px;
+}
+
 .about_area>.container>.row>.single_about>.about_left{
-  margin-right: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
   margin-top: 30px;
 
 }
@@ -82,10 +87,12 @@ button:focus {
   margin-top: 20px;
   background-color:lightpink;
   color: #222222;
-  min-height: 400px;
+  min-height: 500px;
   
  
 }
+
+
 
 .about_area>.container>.row>.single_about>.about_left>.about_thumb1 ul li a{
  
@@ -378,7 +385,11 @@ button:focus {
   display: inline-block; }
   @media(max-width:500px) {
     .about_area .about_right{
-      min-width: 450px;
+      min-width: 350px;
+      
+    }
+    .about_area .about_thumb1{
+      min-height: 25vh;
     }
     
   }
@@ -406,7 +417,9 @@ button:focus {
       padding-right: 15px;
       margin-top: 0px;
       margin-left: 80px;
-      margin-bottom: 40px; } }
+      margin-bottom: 40px;
+      
+    } }
 .about_area .about_right {
   padding: 110px 60px;
  
