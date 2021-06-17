@@ -79,6 +79,8 @@ button:focus {
   background-color: lightcoral;
   color: #222222;
   min-height: 450px;
+  font-style: italic;
+  
   
 }
 .container>.row>.single_about>.about_left>.about_thumb1{
@@ -88,6 +90,8 @@ button:focus {
   background-color:lightpink;
   color: #222222;
   min-height: 500px;
+  font-style: italic;
+  font-size: 0.5rem;
   
  
 }
